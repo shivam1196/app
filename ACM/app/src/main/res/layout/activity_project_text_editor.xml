@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shivam.acm.project_text_editor"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:paddingTop="5sp"
+    android:paddingLeft="5sp"
+    android:paddingRight="5sp"
+    android:paddingBottom="5sp"
+    android:background="@drawable/wall">
+
+    <LinearLayout
+        android:layout_width="147dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:paddingRight="5sp"
+        android:paddingLeft="5sp">
+
+        <com.example.shivam.acm.SquareImageView
+            android:id="@+id/project_te_imgView1"
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            app:srcCompat="@drawable/acmwcp" />
+
+        <TextView
+            android:id="@+id/project_te_txtView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.03"
+            android:fontFamily="serif"
+            android:text="Akshat (Mentor)"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.example.shivam.acm.SquareImageView
+            android:id="@+id/project_te_imgVIew2"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:layout_weight="0.07"
+            app:srcCompat="@drawable/ayushyadav" />
+
+        <TextView
+            android:id="@+id/project_te_txtView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:fontFamily="serif"
+            android:text="Ayush Yadav (Developer)"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="5sp"
+        android:paddingBottom="5sp"
+        android:paddingRight="5sp">
+
+        <TextView
+            android:id="@+id/project_te_txtView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:paddingLeft="7sp"/>
+    </LinearLayout>
+
+</LinearLayout>

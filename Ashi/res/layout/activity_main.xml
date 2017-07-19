@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ashi.bookshow.MainActivity">
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/metrocity"
+        >
+    </Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/theatre"
+        android:layout_below="@+id/metrocity"
+        android:layout_marginTop="50dp"
+        >
+    </Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/movie"
+        android:layout_below="@+id/theatre"
+        android:layout_marginTop="50dp"
+        >
+    </Spinner>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/time"
+        android:layout_below="@+id/movie"
+        android:layout_marginTop="50dp"
+        >
+    </Spinner>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Proceed"
+    android:id="@+id/pro1"
+    android:layout_below="@+id/time"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="50dp"
+    android:onClick="cleckme"/>
+</RelativeLayout>
