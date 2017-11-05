@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "173142080219",
+    "project_id": "login-demo-176620"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173142080219:android:6f08d28795f5ff96",
+        "android_client_info": {
+          "package_name": "com.example.shivam.googlelogindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173142080219-scpdg1bhnu03eqj7cff52vpuciqkk5al.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "173142080219-v124qsngn0qa5kfl9q2dav995406r6pk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shivam.googlelogindemo",
+            "certificate_hash": "2c1098d7851218a094075f20d4eea961a5fea5c0"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByxmustvdoUjDPi63AD_7OaZwjUpDqKNI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
